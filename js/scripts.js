@@ -37,10 +37,8 @@ $("form").submit(function(event) {
 });
 
 $("body").click(function() {
-  $('#equal').hide();
-  $('#isos').hide();
-  $('#scalene').hide();
-  $('#not').hide();
+  $("#" + result).hide();
+
 });
 
 
